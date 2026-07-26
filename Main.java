@@ -1,12 +1,5 @@
 import java.util.Scanner;
 
-/**
- * คลาส Main
- * เป็นจุดเริ่มต้นของโปรแกรม (เริ่มต้น) และควบคุมลำดับการทำงานของ "เมนูหลัก"
- * ให้ตรงตาม Flow chart ของ Book Inventory Management System:
- *
- *   เริ่มต้น -> เมนูหลัก -> [ลบ | เพิ่ม | ค้นหา] -> ต้องการทำต่อหรือไม่ -> (ใช่ -> เมนูหลัก / ไม่ -> สิ้นสุด)
- */
 public class Main {
 
     private static final Scanner scanner = new Scanner(System.in);
